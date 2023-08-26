@@ -1,0 +1,30 @@
+.inquire {
+    width: 120rem;
+}
+
+.inquire-body {
+    display: flex;
+}
+
+.inquire-body-left {
+    width: 42%;
+    margin: 5rem 3rem;
+}
+
+.inquire-body-right {
+    width: 58%;
+    margin: 5rem 3rem;
+}
+
+
+.inquire-modal >*>*{
+    width: 75% !important;
+    max-width: none !important;
+}
+.inquire-modalHead{
+    background-color: #f3f3f3;
+    margin: 0;
+    font-size: 3rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid #e5e5e5;
+}

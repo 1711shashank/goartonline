@@ -1,0 +1,59 @@
+.imageCarousel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem 1.5rem 0;
+}
+
+.imageCarousel-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #5b5959;
+    font-weight: 400;
+    text-align: left;
+}
+
+.imageCarousel-arrow {
+    text-align: right;
+    color: #5b5959 !important;
+    cursor: pointer !important;
+    stroke: #ffffff !important;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.imageCarousel-arrow>* {
+    font-size: 3rem !important;
+}
+
+.imageCarousel-arrow>svg:hover {
+    color: black !important;
+}
+
+
+.imageCarousel-body {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imageCarousel-body img {
+    width: 28rem;
+    height: 28rem;
+    margin-right: 2rem;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.imageCarousel-body a {
+    text-decoration: none;
+}
+
+.imageCarousel-body p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: left;
+    padding: 1.5rem 0;
+    color: black;
+}

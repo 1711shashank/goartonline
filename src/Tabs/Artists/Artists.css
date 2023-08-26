@@ -1,0 +1,37 @@
+.artists-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.artists-body a {
+    text-decoration: none;
+}
+
+
+.artists-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0 2.5rem 0;
+}
+
+.artists-header-tab {
+    color: #bfbfbf;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 1rem;
+}
+
+.artists-header-tab.active {
+    color: #600e63;
+}
+
+
+.gary-background{
+    background-color:#E0E1E4 ;
+    margin: 3rem -15rem;
+    padding: 1rem 15rem;
+}

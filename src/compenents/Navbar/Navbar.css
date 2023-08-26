@@ -1,0 +1,19 @@
+.navbar{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2rem;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #707070;
+    padding: 0 20rem 1rem 20rem;
+}
+
+.nav-list>li {
+    font-size: 1.4rem;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 0.5rem;
+}

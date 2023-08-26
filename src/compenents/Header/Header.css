@@ -1,0 +1,151 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 8rem 1rem 15rem;
+}
+
+.header-right {
+    display: flex;
+    align-items: baseline;
+}
+
+.header-right>* {
+    display: flex;
+    align-items: center;
+    margin-left: 4.7rem;
+}
+
+.phone-numbers {
+    color: #9a9a9a;
+    font-size: 1.3rem;
+    padding: 0 0.8rem;
+    line-height: 2.7rem;
+}
+
+.tel-numbers-form:link {
+    text-decoration: none;
+}
+
+
+
+
+/* SearchBar */
+.searchBar {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.searchBar>input {
+    margin: 4px 0 12px 0;
+    padding: 0 12px 0 25px !important;
+    width: 100%;
+    height: 4rem;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 1.6rem;
+    color: #8e8e8e;
+}
+
+.searchBar>input:focus {
+    outline: none;
+}
+
+.searchBar>input::placeholder {
+    color: #ccc;
+}
+
+
+
+
+
+
+.header-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header-active {
+    position: relative;
+    display: block;
+}
+
+.header-inactive {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* searchResultModel */
+
+.searchResultModel {
+    background-color: white;
+    top: 7rem;
+    position: absolute;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px 0px rgba(173, 173, 173, 1);
+    width: 35rem;
+    right: 2rem;
+}
+
+.search-result-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.search-result-item {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    width: 100%;
+    min-height: 6rem;
+    max-height: 6rem;
+}
+
+
+
+.search-result-item:hover {
+    background-color: #f4f4f4;
+}
+
+.search-result-img {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+    object-fit: contain;
+}
+
+.search-result-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #424242;
+    padding: 2px;
+    margin: 0;
+}
+
+.artArtist {
+    padding: 2px;
+    margin: 0;
+    font-size: 12px;
+}
+
+
+.horizontal-line{
+    display: block;
+    border-top: 1px solid rgb(184, 184, 184);
+}

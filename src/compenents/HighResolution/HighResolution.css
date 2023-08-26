@@ -1,0 +1,6 @@
+.highResolution-modal>*>* {
+    background-color: #F9F9F9 !important;
+    padding: 1.5rem !important;
+    max-width: 70rem !important;
+    margin: 0 !important;
+}

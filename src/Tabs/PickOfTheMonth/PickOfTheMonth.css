@@ -1,0 +1,31 @@
+.pickOfTheMonth {
+    display: flex;
+    flex-direction: column;
+}
+
+.pickOfTheMonth-arrowContainer {
+    text-align: right;
+    padding: 0rem 20rem;
+    color: #600e63;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.carousel-comp {
+    width: 100vw !important;
+    justify-content: space-between;
+    user-select: none;
+
+}
+
+.imageCarousel-container {
+    height: 300;
+    width: 100%;
+    border: '30px solid white';
+    text-align: 'center';
+    line-height: '240px';
+}
+
+.imageCarousel-container>img {
+    margin: 1rem;
+}

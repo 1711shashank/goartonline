@@ -1,0 +1,19 @@
+.imageCard {
+    width: max-content;
+    margin: 1rem 2rem;
+}
+
+.imageCard img {
+    width: 26rem;
+    height: 26rem;
+    object-fit: contain;
+}
+
+.image-border{
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.image-name {
+    text-align: center;
+}

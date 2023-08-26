@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.tab-body {
+    margin: 0 15rem;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+
+.primary-header {
+    margin: 2rem 0;
+    color: #5b5959;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+}
+
+.secondary-header {
+
+    font-size: 20px;
+    color: #631462;
+    text-transform: none;
+    font-weight: 300;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+}
+
+.plain-text {
+    margin: 1rem 0;
+    font-size: 14px;
+    color: #666666;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.active-box{
+    box-shadow: 0px 0px 5px 0px rgb(73 73 73);
+    color: black;
+}
+.active-text{
+    font-weight: 500;
+    color: #575757;
+}

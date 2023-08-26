@@ -1,0 +1,30 @@
+.virtualGallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.virtualGallery-item {
+    width: 33.33%;
+    padding: 0rem 2rem 2rem 0;
+
+}
+
+
+.virtualGallery-item>p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.text-ellipsis {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.8rem;
+    cursor: pointer;
+    color: #600e63;
+    text-decoration: none;
+    text-align: left;
+    margin: 1rem 0;
+    min-height: 3rem;
+}
